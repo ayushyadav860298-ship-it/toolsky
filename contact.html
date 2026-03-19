@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - ToolSky | Get in Touch</title>
+    <meta name="description" content="Contact ToolSky. Have questions, feedback, or suggestions? Reach out to us. We typically respond within 24 hours.">
+    
+    <!-- SEO Meta Tags -->
+    <meta name="keywords" content="contact ToolSky, support, help, feedback, toolsky67@gmail.com">
+    <meta name="author" content="ToolSky">
+    
+    <!-- Open Graph Tags -->
+    <meta property="og:title" content="Contact ToolSky">
+    <meta property="og:description" content="Get in touch with the ToolSky team. We're here to help!">
+    <meta property="og:image" content="../assets/images/hero-bg.jpg">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    
+    <!-- AOS Animation -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <header class="header">
+        <nav class="navbar container">
+            <a href="index.html" class="logo">
+                <img src="assets/images/logo.png" alt="ToolSky Logo" onerror="this.src='https://via.placeholder.com/150x50?text=ToolSky'">
+            </a>
+            <ul class="nav-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Page Header -->
+        <section class="page-header">
+            <div class="container" data-aos="fade-up">
+                <h1>Contact <span class="gradient-text">ToolSky</span></h1>
+                <p class="header-subtitle">We'd love to hear from you</p>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="contact-main">
+            <div class="container">
+                <div class="contact-grid">
+                    <!-- Contact Info -->
+                    <div class="contact-info" data-aos="fade-right">
+                        <h2>Get in Touch</h2>
+                        <p class="info-text">Have questions, feedback, or suggestions? We're here to help. Reach out through any of these channels:</p>
+                        
+                        <div class="info-cards">
+                            <div class="info-card">
+                                <div class="info-icon">
+                                    <i class="fas fa-envelope"></i>
+                                </div>
+                                <div class="info-details">
+                                    <h3>Email Us</h3>
+                                    <a href="mailto:toolsky67@gmail.com" class="email-link">toolsky67@gmail.com</a>
+                                    <p class="response-time">Typically responds within 24 hours</p>
+                                </div>
+                            </div>
+                            
+                            <div class="info-card">
+                                <div class="info-icon">
+                                    <i class="fas fa-clock"></i>
+                                </div>
+                                <div class="info-details">
+                                    <h3>Response Time</h3>
+                                    <p>Monday - Friday: within 24h</p>
+                                    <p>Weekends: within 48h</p>
+                                </div>
+                            </div>
+                            
+                            <div class="info-card">
+                                <div class="info-icon">
+                                    <i class="fas fa-question-circle"></i>
+                                </div>
+                                <div class="info-details">
+                                    <h3>Common Questions</h3>
+                                    <p>Check our <a href="about.html">About page</a> or <a href="privacy.html">Privacy Policy</a></p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="direct-email">
+                            <p>Or email directly:</p>
+                            <div class="email-box">
+                                <i class="fas fa-envelope-open-text"></i>
+                                <span>toolsky67@gmail.com</span>
+                                <button class="copy-btn" onclick="copyEmail()">Copy</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Contact Form -->
+                    <div class="contact-form-container" data-aos="fade-left">
+                        <h2>Send a Message</h2>
+                        <form id="contactForm" class="contact-form">
+                            <div class="form-group">
+                                <label for="name">Your Name *</label>
+                                <input type="text" id="name" name="name" required placeholder="John Doe">
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="email">Email Address *</label>
+                                <input type="email" id="email" name="email" required placeholder="john@example.com">
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="subject">Subject</label>
+                                <input type="text" id="subject" name="subject" placeholder="What is this regarding?">
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="message">Message *</label>
+                                <textarea id="message" name="message" rows="6" required placeholder="How can we help you?"></textarea>
+                            </div>
+                            
+                            <div class="form-group checkbox">
+                                <label>
+                                    <input type="checkbox" id="copySelf" checked>
+                                    Send a copy to my email
+                                </label>
+                            </div>
+                            
+                            <button type="submit" class="btn btn-primary btn-block">
+                                Send Message <i class="fas fa-paper-plane"></i>
+                            </button>
+                        </form>
+                        
+                        <p class="form-note">* Required fields. We'll never share your email.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ Section -->
+        <section class="faq-section">
+            <div class="container">
+                <h2 class="section-title" data-aos="fade-up">Frequently Asked <span class="gradient-text">Questions</span></h2>
+                
+                <div class="faq-grid">
+                    <div class="faq-item" data-aos="fade-up">
+                        <h3>How fast do you respond?</h3>
+                        <p>We typically respond within 24 hours on weekdays. For urgent matters, please email us directly at toolsky67@gmail.com.</p>
+                    </div>
+                    
+                    <div class="faq-item" data-aos="fade-up" data-aos-delay="100">
+                        <h3>Do you store my files?</h3>
+                        <p>No, we never store any files you upload. All processing happens in your browser or is immediately deleted after processing.</p>
+                    </div>
+                    
+                    <div class="faq-item" data-aos="fade-up" data-aos-delay="200">
+                        <h3>Are the tools really free?</h3>
+                        <p>Yes, all 13 tools are completely free forever. No hidden fees, no premium tiers.</p>
+                    </div>
+                    
+                    <div class="faq-item" data-aos="fade-up" data-aos-delay="300">
+                        <h3>Can I suggest a new tool?</h3>
+                        <p>Absolutely! We love hearing suggestions. Email us at toolsky67@gmail.com with your idea.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- AdSense Placeholder -->
+        <div class="ad-container container">
+            <div class="ad-placeholder">
+                <p>Advertisement</p>
+                <div class="ad-slot">728x90 AdSense Code Here</div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="assets/images/logo.png" alt="ToolSky" onerror="this.src='https://via.placeholder.com/120x40?text=ToolSky'">
+                    <p>Premium online tools for everyone</p>
+                    <p class="footer-email"><i class="fas fa-envelope"></i> toolsky67@gmail.com</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Legal</h4>
+                    <ul>
+                        <li><a href="privacy.html">Privacy Policy</a></li>
+                        <li><a href="disclaimer.html">Disclaimer</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 ToolSky. All rights reserved. | Contact: toolsky67@gmail.com</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        function copyEmail() {
+            navigator.clipboard.writeText('toolsky67@gmail.com');
+            alert('Email copied to clipboard!');
+        }
+    </script>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
