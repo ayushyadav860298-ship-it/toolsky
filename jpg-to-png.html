@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JPG to PNG Converter - Free Online Tool | ToolSky</title>
+    <meta name="description" content="Free online JPG to PNG converter. Convert JPG images to PNG format with transparency support. Fast and secure.">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar container">
+            <a href="../index.html" class="logo">
+                <img src="../assets/images/logo.png" alt="ToolSky Logo" onerror="this.src='https://via.placeholder.com/150x50?text=ToolSky'">
+            </a>
+            <ul class="nav-menu">
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../about.html">About</a></li>
+                <li><a href="../contact.html">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="tool-header">
+            <div class="container" data-aos="fade-up">
+                <h1><i class="fas fa-file-image"></i> JPG to PNG Converter</h1>
+                <p>Convert JPG images to PNG format</p>
+            </div>
+        </section>
+
+        <section class="tool-content container">
+            <div class="tool-container" data-aos="fade-up">
+                <div class="tool-input-area">
+                    <div class="upload-area" id="jpgToPngUpload">
+                        <i class="fas fa-cloud-upload-alt"></i>
+                        <p>Upload JPG image to convert</p>
+                        <input type="file" id="jpgInput" accept="image/jpeg" hidden>
+                    </div>
+                    
+                    <div class="conversion-preview" id="conversionPreview" style="display: none;">
+                        <div class="original-preview">
+                            <h3>Original JPG</h3>
+                            <img id="originalJpg" alt="Original JPG">
+                        </div>
+                        <div class="result-preview">
+                            <h3>Converted PNG</h3>
+                            <div class="result-placeholder" id="pngResult">
+                                <i class="fas fa-sync-alt"></i>
+                                <p>Converted image will appear here</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <button class="btn btn-primary" id="convertJpgToPngBtn">Convert to PNG</button>
+                </div>
+            </div>
+
+            <!-- AdSense Placeholder -->
+            <div class="ad-container">
+                <div class="ad-placeholder">
+                    <p>Advertisement</p>
+                    <div class="ad-slot">728x90 AdSense Code Here</div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="../assets/images/logo.png" alt="ToolSky" onerror="this.src='https://via.placeholder.com/120x40?text=ToolSky'">
+                    <p>Premium online tools for everyone</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Legal</h4>
+                    <ul>
+                        <li><a href="../privacy.html">Privacy Policy</a></li>
+                        <li><a href="../disclaimer.html">Disclaimer</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 ToolSky. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="../assets/js/main.js"></script>
+</body>
+</html>

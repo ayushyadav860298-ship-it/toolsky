@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Downloader - Free Online Tool | ToolSky</title>
+    <meta name="description" content="Free online video downloader. Download videos from popular websites. Paste URL and download in multiple formats.">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar container">
+            <a href="../index.html" class="logo">
+                <img src="../assets/images/logo.png" alt="ToolSky Logo" onerror="this.src='https://via.placeholder.com/150x50?text=ToolSky'">
+            </a>
+            <ul class="nav-menu">
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../about.html">About</a></li>
+                <li><a href="../contact.html">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="tool-header">
+            <div class="container" data-aos="fade-up">
+                <h1><i class="fas fa-video"></i> Video Downloader</h1>
+                <p>Download videos from any website (demo placeholder)</p>
+            </div>
+        </section>
+
+        <section class="tool-content container">
+            <div class="tool-container" data-aos="fade-up">
+                <div class="tool-input-area">
+                    <div class="input-group">
+                        <label for="videoUrl">Paste video URL</label>
+                        <input type="url" id="videoUrl" placeholder="https://example.com/video">
+                    </div>
+                    
+                    <div class="video-options">
+                        <div class="input-group">
+                            <label for="videoFormat">Select Format</label>
+                            <select id="videoFormat">
+                                <option value="mp4">MP4 (720p)</option>
+                                <option value="mp4-1080">MP4 (1080p)</option>
+                                <option value="webm">WebM</option>
+                                <option value="avi">AVI</option>
+                            </select>
+                        </div>
+                    </div>
+                    
+                    <div class="disclaimer-box">
+                        <i class="fas fa-exclamation-triangle"></i>
+                        <p>Please respect copyright laws. Only download videos you have permission to download.</p>
+                    </div>
+                    
+                    <button class="btn btn-primary" id="videoDownloadBtn">Fetch Video Info</button>
+                    
+                    <div class="video-info" id="videoInfo" style="display: none; margin-top: 2rem;">
+                        <h3>Video Information</h3>
+                        <p><strong>Title:</strong> Sample Video Title</p>
+                        <p><strong>Duration:</strong> 5:30</p>
+                        <p><strong>Size:</strong> ~25 MB</p>
+                        <button class="btn btn-secondary" id="downloadVideoBtn">Download Now</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- AdSense Placeholder -->
+            <div class="ad-container">
+                <div class="ad-placeholder">
+                    <p>Advertisement</p>
+                    <div class="ad-slot">728x90 AdSense Code Here</div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="../assets/images/logo.png" alt="ToolSky" onerror="this.src='https://via.placeholder.com/120x40?text=ToolSky'">
+                    <p>Premium online tools for everyone</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Legal</h4>
+                    <ul>
+                        <li><a href="../privacy.html">Privacy Policy</a></li>
+                        <li><a href="../disclaimer.html">Disclaimer</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 ToolSky. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="../assets/js/main.js"></script>
+</body>
+</html>

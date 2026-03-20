@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube to MP3 Converter - Free Tool | ToolSky</title>
+    <meta name="description" content="Free YouTube to MP3 converter. Convert YouTube videos to MP3 audio files. Download audio from YouTube easily.">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar container">
+            <a href="../index.html" class="logo">
+                <img src="../assets/images/logo.png" alt="ToolSky Logo" onerror="this.src='https://via.placeholder.com/150x50?text=ToolSky'">
+            </a>
+            <ul class="nav-menu">
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../about.html">About</a></li>
+                <li><a href="../contact.html">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="tool-header">
+            <div class="container" data-aos="fade-up">
+                <h1><i class="fas fa-music"></i> YouTube to MP3 Converter</h1>
+                <p>Convert YouTube videos to MP3 audio</p>
+            </div>
+        </section>
+
+        <section class="tool-content container">
+            <div class="tool-container" data-aos="fade-up">
+                <div class="tool-input-area">
+                    <div class="input-group">
+                        <label for="youtubeMp3Url">YouTube Video URL</label>
+                        <input type="url" id="youtubeMp3Url" placeholder="https://www.youtube.com/watch?v=...">
+                    </div>
+                    
+                    <div class="mp3-options">
+                        <div class="input-group">
+                            <label for="audioQuality">Audio Quality</label>
+                            <select id="audioQuality">
+                                <option value="128">128 kbps (Standard)</option>
+                                <option value="192">192 kbps (Good)</option>
+                                <option value="256">256 kbps (High)</option>
+                                <option value="320">320 kbps (Best)</option>
+                            </select>
+                        </div>
+                    </div>
+                    
+                    <div class="disclaimer-box warning">
+                        <i class="fas fa-exclamation-triangle"></i>
+                        <p>Only convert videos you own or have permission to convert. Respect copyright laws.</p>
+                    </div>
+                    
+                    <button class="btn btn-primary" id="convertToMp3Btn">Convert to MP3</button>
+                    
+                    <div class="conversion-status" id="conversionStatus" style="display: none; margin-top: 2rem;">
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 0%;"></div>
+                        </div>
+                        <p>Converting... Please wait</p>
+                    </div>
+                    
+                    <div class="download-section" id="downloadSection" style="display: none; margin-top: 2rem;">
+                        <h3>Conversion Complete!</h3>
+                        <p><strong>Title:</strong> Sample Video Title</p>
+                        <p><strong>Duration:</strong> 3:45</p>
+                        <p><strong>Size:</strong> 5.2 MB</p>
+                        <button class="btn btn-primary">Download MP3</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- AdSense Placeholder -->
+            <div class="ad-container">
+                <div class="ad-placeholder">
+                    <p>Advertisement</p>
+                    <div class="ad-slot">728x90 AdSense Code Here</div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="../assets/images/logo.png" alt="ToolSky" onerror="this.src='https://via.placeholder.com/120x40?text=ToolSky'">
+                    <p>Premium online tools for everyone</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Legal</h4>
+                    <ul>
+                        <li><a href="../privacy.html">Privacy Policy</a></li>
+                        <li><a href="../disclaimer.html">Disclaimer</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 ToolSky. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="../assets/js/main.js"></script>
+</body>
+</html>

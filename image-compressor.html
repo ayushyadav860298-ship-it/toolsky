@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Compressor - Free Online Tool | ToolSky</title>
+    <meta name="description" content="Free online image compressor. Reduce image file size while maintaining quality. Optimize JPG, PNG, and WebP images.">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar container">
+            <a href="../index.html" class="logo">
+                <img src="../assets/images/logo.png" alt="ToolSky Logo" onerror="this.src='https://via.placeholder.com/150x50?text=ToolSky'">
+            </a>
+            <ul class="nav-menu">
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../about.html">About</a></li>
+                <li><a href="../contact.html">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="tool-header">
+            <div class="container" data-aos="fade-up">
+                <h1><i class="fas fa-compress"></i> Image Compressor</h1>
+                <p>Reduce image file size without losing quality</p>
+            </div>
+        </section>
+
+        <section class="tool-content container">
+            <div class="tool-container" data-aos="fade-up">
+                <div class="tool-input-area">
+                    <div class="upload-area" id="imageCompressUpload">
+                        <i class="fas fa-cloud-upload-alt"></i>
+                        <p>Upload image to compress</p>
+                        <input type="file" id="compressImageInput" accept="image/*" hidden>
+                    </div>
+                    
+                    <div class="compress-controls" id="compressControls" style="display: none;">
+                        <div class="quality-slider">
+                            <label>Compression Quality: <span id="qualityValue">80</span>%</label>
+                            <input type="range" id="qualitySlider" min="1" max="100" value="80">
+                        </div>
+                        
+                        <div class="file-info">
+                            <p>Original Size: <span id="originalSize">0 KB</span></p>
+                            <p>Estimated Size: <span id="estimatedSize">0 KB</span></p>
+                        </div>
+                        
+                        <button class="btn btn-primary" id="compressBtn">Compress Image</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- AdSense Placeholder -->
+            <div class="ad-container">
+                <div class="ad-placeholder">
+                    <p>Advertisement</p>
+                    <div class="ad-slot">728x90 AdSense Code Here</div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="../assets/images/logo.png" alt="ToolSky" onerror="this.src='https://via.placeholder.com/120x40?text=ToolSky'">
+                    <p>Premium online tools for everyone</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Legal</h4>
+                    <ul>
+                        <li><a href="../privacy.html">Privacy Policy</a></li>
+                        <li><a href="../disclaimer.html">Disclaimer</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 ToolSky. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="../assets/js/main.js"></script>
+</body>
+</html>
